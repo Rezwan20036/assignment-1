@@ -164,3 +164,76 @@ body {
   margin: 0;
   font-size: 16px;
 }
+/* focus style */
+.focus {
+  padding: 60px 0;
+}
+.focus .container{
+  background: #fff;
+  border-radius: 14px;
+}
+.focus h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.focus p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.focus img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+/* contact css */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact .text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact .text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact .form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 250px;
+}
+
+.form input, .form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form .btn{
+  padding: 17px 20px;
+  background: #3a36ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
